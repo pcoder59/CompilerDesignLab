@@ -1,0 +1,7 @@
+Step 1 : Start
+Step 2 : Enter Number of Productions
+Step 3 : Read the Productions
+Step 4 : For each production repeat steps 5
+Step 5 : If RHS of production is a single digit, replace RHS with the digit in all subsequent lines
+Step 6 : Display the new optimized code
+Step 7 : Stop
