@@ -1,0 +1,24 @@
+Step 1: Start
+Step 2: Input number of terminals
+Step 3: Enter the terminals
+Step 4: Enter precedence of each operator
+Step 5: Print the operator precedence table
+Step 6: Initialize stack with '$'
+Step 7: Enter the input string
+Step 8: Print Stack, Input String and Action
+Step 9: Check the symbol on the current stack top
+Step 10: Check the current input symbol
+Step 11: If current stack top and input symbol is not '$', go to step 14
+Step 12: Print String Accepted
+Step 13: Go to step 24
+Step 14: If precedence operator is not '<' or '=' go to step 19
+Step 15: Push operator onto stack
+Step 16: Push input symbol onto stack
+Step 17: Print Shift input symbol
+Step 18: Go to step 8
+Step 19: If precedence operator is not '>' go to step 23
+Step 20: Reduce the symbol in stack till '<'
+Step 21: Print Reduced
+Step 22: Go to step 8
+Step 23: Print String is not Accepted
+Step 24: Stop
