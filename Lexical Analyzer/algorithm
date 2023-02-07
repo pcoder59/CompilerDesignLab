@@ -1,0 +1,21 @@
+Step 1: Start
+Step 2: Set counter for keywords, identifiers, numbers, special symbols and number of lines as 0
+Step 3: Create a input file containing the C Code
+Step 4: Open the file in read mode
+Step 5: Repeat step 6 for each line in the file and increment line count
+Step 6: Repeat step 7 for each word in the line
+Step 7: Check weather the word is a keyword. If it is not, go to step 10
+Step 8: Increment the counter for keywords
+Step 9: Print the keyword and go to step 6
+Step 10: Check weather the word is a number. If it is not, go to step 13
+Step 11: Increment the counter for number
+Step 12: Add the number to a number array and go to step 6
+Step 13: Check weather the word is starting with a letter. If it is not go to step 16
+Step 14: Increment the counter for identifiers.
+Step 15: Print the identifier and go to step 6
+Step 16: Increment counter for special symbol
+Step 17: Add the symbol into a symbols array and go to step 6
+Step 18: Print all character in symbols array
+Step 19: Print all numbers in the array
+Step 20: Print counter of keywords, identifiers, numbers, special symbols and the number of lines
+Step 21: Stop
