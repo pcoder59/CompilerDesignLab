@@ -1,0 +1,27 @@
+Step 1: Start
+Step 2: Create File input.txt and open it in read mode
+Step 3: Open a file output.txt in write mode
+Step 4: Repeat step 5 till end of the file
+Step 5: Read Operator, Arguments 1, 2 and the result register
+Step 6: If Operator is not '+', go to step 10
+Step 7: Write MOV R0, argument 1 to output file
+Step 8: Write ADD R0, argument 2 to output file
+Step 9: Write MOV result, R0 to output file
+Step 10: If Operator is not '*' go to step 14
+Step 11: Write MOV R0, argument 1 to output file
+Step 12: Write MUL R0, argument 2 to output file
+Step 13: Write MOV result, R0 to output file
+Step 14: If Operator is not '/' go to step 18
+Step 15: Write MOV R0, argument 1 to output file
+Step 16: Write DIV R0, argument 2 to output file
+Step 17: Write MOV result, R0 to output file
+Step 18: If Operator is not '-' go to step 22
+Step 19: Write MOV R0, argument 1 to output file
+Step 20: Write SUB R0, argument 2 to output file
+Step 21: Write MOV result, R0 to output file
+Step 22: If Operator is not '=' go to next line
+Step 23: Write MOV R0, argument1 to output file
+Step 24: Write MOV result, R0 to output file
+Step 25: Close the input file
+Step 26: Close the output file
+Step 27: Stop
