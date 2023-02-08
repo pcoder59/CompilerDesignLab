@@ -1,0 +1,19 @@
+Step 1 : Start
+Step 2 : Print the grammar on screen
+Step 3 : Enter the input string
+Step 4 : Print stack implementation table
+Step 5 : Push '$' to stack
+Step 6 : Append '$' to input symbol
+Step 7 : Repeat steps for all characters of input symbol till '$'
+Step 8 : Shift character to stack
+Step 9 : Print Stack, Input String and Shift
+Step 10 : Check top of stack is a or b. If not go to step 13
+Step 11 : Reduce a or b to E
+Step 12 : Print Stack, Input String and Reduce. Then go to step 8
+Step 13 : Check if stack contains E+E, E/E or E*E. If not go to step 8
+Step 14 : Reduce E+E, E/E or E*E to E
+Step 15 : Print Stack, Input String and Reduce. Then go to step 8
+Step 16 : If stack contains E and input string is $, then go to step
+Step 17 : Print Reject and go to step 19
+Step 18 : Print Accept
+Step 19 : Stop
