@@ -1,0 +1,17 @@
+Step 1 : Start
+Step 2 : Set count = 0
+Step 3 : Set flag = 0
+Step 4 : Input an algebraic expression
+Step 5 : For each character in the expression
+Step 6 : If character in expression is alphabet or number, go to step 9 with next character and increment count
+Step 7 : If character in expression is '(', go to step 5 with next character and increment count
+Step 8 : If character in expression is ')', go to step 9 with next character and increment count
+Step 9 : Set flag as 1
+Step 10 : If character is '*', go to step 5 with next character and increment count. Else go to step 12
+Step 11 : Go to step 10
+Step 12 : If character in expression is '+', go to step 5 with next character and increment count. Else go to step 14
+Step 13 : Go to step 12
+Step 14 : If length of expression not equal to count or flag equals 0, go to step 16
+Step 15 : Print Expression is Valid and go to step 17 
+Step 16 : Print Expression is Invalid
+Step 17: Stop
