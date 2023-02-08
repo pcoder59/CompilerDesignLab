@@ -2,6 +2,12 @@ Step 1 : Start
 Step 2 : Enter Number of Productions
 Step 3 : Read the Productions
 Step 4 : For each production repeat steps 5
-Step 5 : If RHS of production is a single digit, replace RHS with the digit in all subsequent lines
-Step 6 : Display the new optimized code
-Step 7 : Stop
+Step 5 : Check RHS of Production
+Step 6 : Check weather the production is single digit. If not, go to next production
+Step 7 : Replace RHS with the digit
+Step 8 : Check the next subsequent lines
+Step 9 : Check RHS of the production of the subsequent lines
+Step 10 : If RHS does not contain the character to replace, go to step 8
+Step 11 : Replace RHS character with the digit
+Step 12 : Display the new optimized code
+Step 13 : Stop
